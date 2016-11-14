@@ -1,13 +1,18 @@
-
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>login</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-  <button (click)="onLogin()">Login Facebook</button>
+<ion-content class="login-content" padding>
+  <ion-row>
+    <ion-col>
+      <h1 class="label-logo">Order Your Beer</h1>
+      <p class="label-description">This app helps you order beer when the party is almost over!</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="login-button">
+      <button ion-button block (click)="onLogin()">Facebook Login</button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="bottom-row">
+      <p class="rights-deserved">This app has been developed by Lucas Oliveira <br> All rights reserved</p>
+    </ion-col>
+  </ion-row>
 </ion-content>
