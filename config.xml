@@ -28,4 +28,9 @@
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
+  <allow-navigation href="http://192.168.0.106:8100"/>
+  <plugin name="cordova-plugin-facebook4" spec="~1.7.4">
+    <variable name="APP_ID" value="1819825348264027"/>
+    <variable name="APP_NAME" value="“OrderYourBeer”"/>
+  </plugin>
 </widget>
